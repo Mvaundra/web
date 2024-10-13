@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light btn btn-outline-light sticky-top">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#carousel">HOME</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Fotoprofile">Profile</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Kesimpulan">Kesimpulan</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#gallery">Gallery</a>
+                  </li>
+              </ul>
+              <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Carousel -->
+  <div id="carousel" class="carousel slide carousel-custom" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/assets/loker.jpg" class="d-block w-100" alt="ecommerce" style="height: 300px;">
+        <div class="carousel-caption d-md-block">
+          <h5>LOKER</h5>
+          <p>Tempat Menyimpan Barang Yang Tidak Diperbolehkan Untuk dibawa Masuk Kedalam Perpustakaan</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/pintumasukperpus.jpg" class="d-block w-100" alt="ecommerce" style="height: 300px;">
+        <div class="carousel-caption d-md-block">
+          <h5>PERPUSTAKAAN</h5>
+          <p>Tempat yang menyediakan akses ke berbagai sumber informasi, mendukung pendidikan dan penelitian, serta meningkatkan literasi</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/ruangbaca.jpg" class="d-block w-100" alt="ecommerce" style="height: 300px;">
+        <div class="carousel-caption d-md-block">
+          <h5>RUANG MEMBACA</h5>
+          <p>Area di perpustakaan yang dirancang khusus untuk membaca.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/ruangdiskusi.jpg" class="d-block w-100" alt="ecommerce" style="height: 300px;">
+        <div class="carousel-caption d-md-block">
+          <h5>RUANG DISKUSI</h5>
+          <p>Tempat/Fasilitas perpustakaan yang dirancang untuk pertemuan dan pembicaraan kelompok.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/ruangkomputer.jpg" class="d-block w-100" alt="ecommerce" style="height: 300px;">
+        <div class="carousel-caption d-md-block">
+          <h5>RUANG KOMPUTER</h5>
+          <p>Fasilitas perpustakaan yang dilengkapi dengan perangkat komputer dan akses internet, memungkinkan Mahasiswa/mahasiswi untuk melakukan penelitian, mengerjakan tugas, atau mengakses sumber daya digital.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- End Carousel -->
+
+  <!-- Jumbotron -->
+  <div id="Fotoprofile" class="center-img">
+      <img src="assets/Fotoprofile.jpg" alt="Motor" class="rounded-circle-small">
+      <p class="mt-3">Muhammad Vaundra Nurwijaya</p>
+  </div>
+  <!-- End Jumbotron -->
+
+  <!-- Additional Image and Text -->
+
+  <div id="Kesimpulan" class="text-center mt-5">
+      <img src="/assets/fotobuku.jpg" class="img-fluid" alt="Additional Image" style="max-width: 300px; height: auto;   margin-top: 100px;">
+      <p class="mt-3">Buku "Manajemen E-commerce" karya Rakhmat Makmur adalah sebuah referensi yang sangat berharga bagi siapa saja yang ingin sukses di dunia bisnis online. Buku ini tidak hanya memberikan pengetahuan teoritis, tetapi juga memberikan panduan praktis yang dapat langsung diterapkan.
+        Buku ini untuk STAR UP Company, Akademisi, Praktisi Bisnis Online dan NEWBIE Seller online shop serta konsultan IT Bahkan Broker Property. bagi yang ingin lebih memahami Tentang Ecommerce-Pemasaran Online-Digital Marketing dengan tujuan menata sistem pemasaran online yang sudah ada agar lebih tertata, 
+        rapi dan struktur, meningkatkan omzet, mencari reseller-dropshiper-afiliate.</p>
+  </div>
+  <!-- End Additional Image and Text -->
+
+  <!-- Gallery Section -->
+  <div id="gallery" class="container mt-5 gallery">
+      <div class="row">
+          <div class="col-4">
+              <img src="/assets/foto1.jpg" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('/assets/foto1.jpg')" alt="Gallery 1">
+          </div>
+          <div class="col-4">
+              <img src="/assets/foto2.jpg" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('/assets/foto2.jpg')" alt="Gallery 2">
+          </div>
+          <div class="col-4">
+              <img src="/assets/foto3.jpg" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('/assets/foto3.jpg')" alt="Gallery 3">
+          </div>
+      </div>
+  </div>
+  <!-- End Gallery Section -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <div class="modal-body">
+                  <img src="" id="modalImage" alt="Large view">
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- End Modal -->
+
+  <script>
+      function showImage(src) {
+          document.getElementById('modalImage').src = src;
+      }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
